@@ -1,7 +1,5 @@
 # Project: Healthcare Insurance Cost Analysis
 
-This is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
-
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 ## Dataset Content
@@ -15,9 +13,9 @@ This is a comprehensive data analysis tool designed to streamline data explorati
 
 ## Hypothesis
 
--   Descriptive Statistics: Display basic statistics such as average insurance charges by age, gender, and region.
--   Correlation Analysis: Visualise correlations between different attributes and insurance charges.
--   Geographic Analysis: Visualise the impact of geographic regions on insurance charges.
+-   Smoking increases insurance charges
+-   Increased BMI increases insurance charges
+-   Investigate if region affect insurance charges
 
 ## Project Plan
 
@@ -25,14 +23,18 @@ This is a comprehensive data analysis tool designed to streamline data explorati
 -   Get the data from Kaggle
 -   Clean the data
 -   Transform the data
--   Visualisations
+-   Visualisations following the business requirements
 -   Regularly commit to GitHub
 -   Document clearly and concisely
 
 ## Analysis techniques used
 
--   Descriptive Statistics:
--   Correlation Analysis:
+-   When cleaning the data no missing values were found. There was one duplicate row removed. The minimum and maximum values were realistic.
+-   To transform the data one column was renamed and an extra column was added for bmi category.
+-   Outliers were not removed as the large insurance charges are probably legitimate cases for high risk individuals
+
+-   Descriptive Statistics: box plots
+-   Correlation Analysis: scatter plots
 -   Geographic Analysis:
 
 -   List the data analysis methods used and explain limitations or alternative approaches.
@@ -41,6 +43,8 @@ This is a comprehensive data analysis tool designed to streamline data explorati
 -   How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
 ## Conclusion
+
+-   To take this further in the future it would be beneficial to use more personal attributes such as lifestyle (active or sedentary) and drug use.
 
 ## Reflection
 
