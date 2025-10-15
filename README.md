@@ -19,7 +19,7 @@
 
 ## Project Plan
 
--   Set up new repository and project board on GitHub https://github.com/users/BethW83/projects/2
+-   Set up new repository and project board on GitHub https://github.com/users/BethW83/projects/2 (please see screenshot of project board at the end of day 1)
 -   Get the data from Kaggle
 -   Clean the data
 -   Transform the data
@@ -73,6 +73,7 @@
 -   What new skills or tools do you plan to learn next based on your project experience?
 -   Ongoing challenge of getting used to a new laptop and to Windows (for many years I have used Linux)
 -   Initial error message in VSCode, easily remedied by installing the ipnykernel package and restarting VSCode
+-   Error message when trying to show plots using plotly, an updated nbformat needed to be installed, please see screenshot
 
 ## Main Data Analysis Libraries
 
