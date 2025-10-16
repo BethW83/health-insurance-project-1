@@ -15,7 +15,7 @@
 
 -   1. Smoking increases insurance charges
 -   2. Increased BMI increases insurance charges
--   3. Investigate if region affect insurance charges
+-   3. Investigate if region affects insurance charges
 
 ## Project Plan
 
@@ -34,7 +34,7 @@
 -   Outliers were not removed as the large insurance charges are probably legitimate cases for high risk individuals
 
 -   Descriptive Statistics: Seaborn and Plotly were used to display figures for hypothesis 1, to show different attributes vs charges with smoker being the hue/colour
--   Correlation Analysis: scatter plots
+-   Correlation Analysis: Matplotlib was used to show the correlation between BMI and charges, and smoking
 -   Geographic Analysis:
 
 -   List the data analysis methods used and explain limitations or alternative approaches.
@@ -42,9 +42,10 @@
 -   Did the data limit you, and did you use an alternative approach to meet these challenges?
 -   How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
-## Conclusion
+## Conclusions
 
 -   Hypothesis 1: the four figures clearly show that smokers have higher health insurance charges than non-smokers
+-   Hypothesis 2: the bar plot clearly shows that health insurance charges increase with increasing BMI (there is a correlation with being a smoker also)
 -   To take this further in the future it would be beneficial to use more personal attributes such as lifestyle (active or sedentary) and drug use.
 
 ## Reflection
@@ -79,9 +80,9 @@ I have benefitted from using desks in Discord and discussing ideas and problems 
 ## Main Data Analysis Libraries
 
 -   pandas and numpy: used throughout
--   seaborn: used to create scatter and boxplots in hypothesis 1
+-   seaborn: used to create scatter and boxplots in hypothesis 1 and a scatter plot in hypothesis 2
 -   plotly: used to create a bar chart in hypothesis 1
--   matplotlib
+-   matplotlib: used to create a bar plot in hypothesis 2
 
 ## Credits
 
