@@ -42,9 +42,12 @@
 -   Hypothesis 1: the four figures clearly show that smokers have higher health insurance charges than non-smokers
 -   Hypothesis 2: the bar plot clearly shows that health insurance charges increase with increasing BMI (there is a correlation with being a smoker also)
 -   Hypothesis 3: the violin plot and histogram are inconclusive and no conclusion can be drawn that region affects insurance charge without further investigation
--   Extra hypothesis 4:
--   Overall conclusion:
--   To take this further in the future it would be beneficial to use more personal attributes such as lifestyle (active or sedentary) and drug use
+-   Extra hypothesis 4: the bar plot shows that insurance charges peak at 3 children and then decrease
+-   **Overall conclusion:**
+-   _Health insurance charges are higher for smokers compared to non-smokers_
+-   _Health insurance charges increase with increasing BMI_
+-   _Within this project a clear relationship between region and insurance charges has not been found, further investigation is required_
+-   To take this further in the future it would be beneficial to use more personal attributes such as lifestyle (active or sedentary) and any drug use
 
 ## Reflection
 
