@@ -2,9 +2,21 @@
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+<img src ="dataset-cover.jpg" alt="Kaggle dataset cover" style="width: 300px; height: auto;">
+
 ## Dataset Content
 
--   The dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits) and geographic factors, and their impact on medical insurance charges.
+The dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits) and geographic factors, and their impact on medical insurance charges.
+
+Columns include:
+
+-   `age`: Age of the insured
+-   `sex`: Gender
+-   `bmi`: Body Mass Index
+-   `children`: Number of dependents
+-   `smoker`: Smoking status
+-   `region`: One of four regions
+-   `charges`: health insurance charges
 
 ## Business Requirements
 
