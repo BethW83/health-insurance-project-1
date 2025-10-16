@@ -13,9 +13,9 @@
 
 ## Hypothesis
 
--   1. Smoking increases insurance charges
--   2. Increased BMI increases insurance charges
--   3. Investigate if region affects insurance charges
+1. Smoking increases insurance charges
+2. Increased BMI increases insurance charges
+3. Investigate if region affects insurance charges
 
 ## Project Plan
 
@@ -31,27 +31,25 @@
 
 -   When cleaning the data no missing values were found. There was one duplicate row removed. The minimum and maximum values were realistic.
 -   To transform the data one column was renamed and an extra column was added for bmi category.
--   Outliers were not removed as the large insurance charges are probably legitimate cases for high risk individuals
-
--   Descriptive Statistics: Seaborn and Plotly were used to display figures for hypothesis 1, to show different attributes vs charges with smoker being the hue/colour
--   Correlation Analysis: Matplotlib was used to show the correlation between BMI and charges, and smoking
--   Geographic Analysis:
-
--   List the data analysis methods used and explain limitations or alternative approaches.
--   How did you structure the data analysis techniques. Justify your response.
--   Did the data limit you, and did you use an alternative approach to meet these challenges?
--   How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+-   Outliers were not removed as the large insurance charges are probably legitimate cases for high risk individuals.
+-   Descriptive Statistics: Seaborn and Plotly were used to display figures for hypothesis 1, to show different attributes vs charges with smoker being the hue/colour.
+-   Correlation Analysis: Matplotlib was used to show the correlation between BMI and charges, and smoking in hypothesis 2.
+-   Geographic Analysis: Seaborn and Plotly were used to display figures for hypothesis 3, to show region vs charges.
+-   I used ChatGPT for help when trying to find the best way to generate a useful histogram. Copilot was useful to help with keeping my code efficient and readable.
 
 ## Conclusions
 
 -   Hypothesis 1: the four figures clearly show that smokers have higher health insurance charges than non-smokers
 -   Hypothesis 2: the bar plot clearly shows that health insurance charges increase with increasing BMI (there is a correlation with being a smoker also)
--   To take this further in the future it would be beneficial to use more personal attributes such as lifestyle (active or sedentary) and drug use.
+-   Hypothesis 3: the violin plot and histogram are inconclusive and no conclusion can be drawn that region affects insurance charge without further investigation
+-   Extra hypothesis 4:
+-   Overall conclusion:
+-   To take this further in the future it would be beneficial to use more personal attributes such as lifestyle (active or sedentary) and drug use
 
 ## Reflection
 
 Being my first ever project it was a steep learning curve. Overall I have enjoyed the experience. In hindsight probably spent too long on the project board and getting VSCode set up.
-I leaned more heavily on Copilot and ChatGPT than I would have liked. I found it hard to get into my flow when programming.
+I leaned more heavily on Copilot and ChatGPT than I would have liked. I found it hard to get into my flow when programming, which I feel has lead to me using simple charts rather than the more interactive plotly figures.
 I have benefitted from using desks in Discord and discussing ideas and problems with others on the Code Institute course.
 
 ## Ethical considerations
@@ -62,10 +60,7 @@ I have benefitted from using desks in Discord and discussing ideas and problems 
 
 ## Unfixed Bugs
 
--   Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
--   Did you recognise gaps in your knowledge, and how did you address them?
--   If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
-
+-   I was hoping to include a sunburst to display the data by regions but I couldn't get it working within the time so I created a histogram instead because I wanted to include another figure in plotly and finish hypothesis 3.
 -   VSCode suggested I update the pip version. I decided not to update during the project as this might have a knock on effect to reinstall/upgrade other libraries. As this is only a two day project with time constraints I didn't want to risk it going wrong. I will upgrade pip tomorrow for security and to ensure future compatibility.
 
 ## Development Roadmap
@@ -75,14 +70,15 @@ I have benefitted from using desks in Discord and discussing ideas and problems 
 -   Error message when trying to show plots using plotly, an updated nbformat needed to be installed, please see screenshot
 -   Error message, kaleido version was not compatible with my version of plotly, therefore uninstalled kaleido and installed a downgraded version
 -   Installed packages added to requirements.txt
--   In future projects I would like to save figures in separate files so that they can be included in other documents or attached to emails
+-   In future projects I would like to save figures in separate files so that they can be included in other documents or attached to emails (rather than screenshots)
+-   For future projects is a good idea to carry out a peer review (time permitting)
 
 ## Main Data Analysis Libraries
 
--   pandas and numpy: used throughout
--   seaborn: used to create scatter and boxplots in hypothesis 1 and a scatter plot in hypothesis 2
--   plotly: used to create a bar chart in hypothesis 1
--   matplotlib: used to create a bar plot in hypothesis 2
+-   Pandas and Numpy: used throughout
+-   Seaborn: used to create scatter and boxplots in hypothesis 1 and a scatter plot in hypothesis 2, and a violin plot in hypothesis 3
+-   Plotly: used to create a bar chart in hypothesis 1 and a histogram in hypothesis 3
+-   Matplotlib: used to create a bar plot in hypothesis 2
 
 ## Credits
 
