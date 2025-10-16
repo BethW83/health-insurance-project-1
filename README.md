@@ -33,7 +33,7 @@
 -   To transform the data one column was renamed and an extra column was added for bmi category.
 -   Outliers were not removed as the large insurance charges are probably legitimate cases for high risk individuals
 
--   Descriptive Statistics: box plots
+-   Descriptive Statistics: Seaborn and Plotly were used to display figures for hypothesis 1, to show different attributes vs charges with smoker being the hue/colour
 -   Correlation Analysis: scatter plots
 -   Geographic Analysis:
 
@@ -44,6 +44,7 @@
 
 ## Conclusion
 
+-   Hypothesis 1: the four figures clearly show that smokers have higher health insurance charges than non-smokers
 -   To take this further in the future it would be beneficial to use more personal attributes such as lifestyle (active or sedentary) and drug use.
 
 ## Reflection
@@ -64,20 +65,22 @@ I have benefitted from using desks in Discord and discussing ideas and problems 
 -   Did you recognise gaps in your knowledge, and how did you address them?
 -   If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
+-   VSCode suggested I update the pip version. I decided not to update during the project as this might have a knock on effect to reinstall/upgrade other libraries. As this is only a two day project with time constraints I didn't want to risk it going wrong. I will upgrade pip tomorrow for security and to ensure future compatibility.
+
 ## Development Roadmap
 
 -   Ongoing challenge of getting used to a new laptop and to Windows (for many years I have used Linux)
 -   Initial error message in VSCode, easily remedied by installing the ipnykernel package and restarting VSCode
 -   Error message when trying to show plots using plotly, an updated nbformat needed to be installed, please see screenshot
 -   Error message, kaleido version was not compatible with my version of plotly, therefore uninstalled kaleido and installed a downgraded version
+-   Installed packages added to requirements.txt
 -   In future projects I would like to save figures in separate files so that they can be included in other documents or attached to emails
 
 ## Main Data Analysis Libraries
 
--   pandas
--   numpy
--   seaborn
--   plotly
+-   pandas and numpy: used throughout
+-   seaborn: used to create scatter and boxplots in hypothesis 1
+-   plotly: used to create a bar chart in hypothesis 1
 -   matplotlib
 
 ## Credits
