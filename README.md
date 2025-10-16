@@ -13,9 +13,9 @@
 
 ## Hypothesis
 
--   Smoking increases insurance charges
--   Increased BMI increases insurance charges
--   Investigate if region affect insurance charges
+-   1. Smoking increases insurance charges
+-   2. Increased BMI increases insurance charges
+-   3. Investigate if region affect insurance charges
 
 ## Project Plan
 
@@ -48,18 +48,15 @@
 
 ## Reflection
 
+Being my first ever project it was a steep learning curve. Overall I have enjoyed the experience. In hindsight probably spent too long on the project board and getting VSCode set up.
+I leaned more heavily on Copilot and ChatGPT than I would have liked. I found it hard to get into my flow when programming.
+I have benefitted from using desks in Discord and discussing ideas and problems with others on the Code Institute course.
+
 ## Ethical considerations
 
 -   The data is available publically on Kaggle
 -   Provenance: "my method the collect is conversation with peoples in hospital and too see datas online the hospistal about insegurance for world with my dataset creation visualization with peoples development method."
 -   There is no information present in the data that could identify a person specifically
-
-## Dashboard Design
-
--   List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
--   Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
--   How were data insights communicated to technical and non-technical audiences?
--   Explain how the dashboard was designed to communicate complex data insights to different audiences.
 
 ## Unfixed Bugs
 
@@ -69,11 +66,11 @@
 
 ## Development Roadmap
 
--   What challenges did you face, and what strategies were used to overcome these challenges?
--   What new skills or tools do you plan to learn next based on your project experience?
 -   Ongoing challenge of getting used to a new laptop and to Windows (for many years I have used Linux)
 -   Initial error message in VSCode, easily remedied by installing the ipnykernel package and restarting VSCode
 -   Error message when trying to show plots using plotly, an updated nbformat needed to be installed, please see screenshot
+-   Error message, kaleido version was not compatible with my version of plotly, therefore uninstalled kaleido and installed a downgraded version
+-   In future projects I would like to save figures in separate files so that they can be included in other documents or attached to emails
 
 ## Main Data Analysis Libraries
 
