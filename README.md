@@ -1,3 +1,16 @@
+_15/01/2026 update:_
+
+**in progress**: _Tableau dashboard_
+
+_08/01/2026 update:_
+
+_1) ideate a dashboard with a wireframe drawing_
+
+_2) create a Power BI dashboard_
+
+_This project was my first individual project submission for the Code Institute's Data Analysis with AI Bootcamp._
+_Now that the course has finished I am going to add interactive dashboards; at the time the project did not require dashboards._
+
 # Project: Healthcare Insurance Cost Analysis
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
