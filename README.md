@@ -2,6 +2,8 @@ _15/01/2026 update:_
 
 **in progress**: _Tableau dashboard_
 
+https://public.tableau.com/views/health_dashboard_17684863984520/HealthcareInsuranceCostAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 _08/01/2026 update:_
 
 _1) ideate a dashboard with a wireframe drawing_
